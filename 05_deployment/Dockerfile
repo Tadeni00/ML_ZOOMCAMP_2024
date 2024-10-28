@@ -5,16 +5,13 @@ FROM svizor/zoomcamp-model:3.11.5-slim
 WORKDIR /app
 
 # Install pipenv if not included in the base image
-RUN pip install pipenv
+RUN pip install pipenv flask scikit-learn gunicorn
 
 # Copy the Pipfile and Pipfile.lock
 COPY Pipfile Pipfile.lock ./ 
 
 # Install dependencies
 RUN pipenv install --deploy --ignore-pipfile
-
-# Install gunicorn (if not already installed in dependencies)
-RUN pip install gunicorn
 
 # Copy your Flask app script
 COPY app.py ./ 
