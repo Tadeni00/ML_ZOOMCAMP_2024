@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Segmentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Customer Segmentation Prediction</h2>
+        <form method="POST" action="/predict">
+            <label for="registration_date">Registration Date:</label>
+            <input type="date" id="registration_date" name="registration_date" required>
+            
+            <label for="data_date">Data Date:</label>
+            <input type="date" id="data_date" name="data_date" required>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="customer_seniority">Customer Seniority:</label>
+            <input type="number" id="customer_seniority" name="customer_seniority" required>
+            
+            <label for="gross_income">Gross Income:</label>
+            <input type="number" id="gross_income" name="gross_income" required>
+            
+            <label for="activity_index">Activity Index:</label>
+            <input type="number" id="activity_index" name="activity_index" required>
+            
+            <button type="submit">Predict Cluster</button>
+        </form>        
+        <div class="result">{{ prediction }}</div>
+        <div class="error">{{ error }}</div>
+    </div>
+</body>
+</html>
