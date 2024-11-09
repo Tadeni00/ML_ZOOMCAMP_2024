@@ -3,5 +3,7 @@ bank-full.csv
 structure.py
 06_trees/jamb_exam_results.csv
 06_trees/jamb_exam_results.csv.1
-git rm -r --cached 06_trees/jamb_exam_results.csv.1
+07_midterm_project/logs
+07_midterm_project/artifacts
 
+git rm -r --cached 07_midterm_project/logs 07_midterm_project/artifacts
