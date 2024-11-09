@@ -1,0 +1,7 @@
+07_midterm_project/data/
+bank-full.csv
+structure.py
+06_trees/jamb_exam_results.csv
+06_trees/jamb_exam_results.csv.1
+git rm -r --cached 06_trees/jamb_exam_results.csv.1
+
