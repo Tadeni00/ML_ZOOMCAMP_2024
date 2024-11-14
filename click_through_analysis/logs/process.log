@@ -29,3 +29,10 @@
 2024-11-14 11:50:12,078 - INFO - Pickle file for column transformer saved successfully
 2024-11-14 11:50:16,608 - INFO - Model Evaluation - Accuracy: 0.88, Precision: 0.87, Recall: 0.87, F1 Score: 0.87, ROC-AUC: 0.95
 2024-11-14 11:50:16,610 - INFO - Trained model saved to artifacts/model.pkl
+2024-11-14 16:35:50,486 - INFO - Data loaded successfully
+2024-11-14 16:35:50,495 - INFO - Data preprocessing completed successfully
+2024-11-14 16:35:50,501 - INFO - Feature engineering completed successfully
+2024-11-14 16:35:50,726 - INFO - Data transformation completed successfully
+2024-11-14 16:35:50,729 - INFO - Pickle file for column transformer saved successfully
+2024-11-14 16:35:55,459 - INFO - Model Evaluation - Accuracy: 0.88, Precision: 0.87, Recall: 0.87, F1 Score: 0.87, ROC-AUC: 0.95
+2024-11-14 16:35:55,462 - INFO - Trained model saved to artifacts/model.pkl
