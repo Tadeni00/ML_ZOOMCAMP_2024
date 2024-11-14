@@ -1,4 +1,5 @@
-07_midterm_project/data/
+07_midterm_project
+07_midterm_project/data/customers_data.csv 
 bank-full.csv
 structure.py
 06_trees/jamb_exam_results.csv
