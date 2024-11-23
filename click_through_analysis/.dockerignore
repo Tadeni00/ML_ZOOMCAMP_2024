@@ -1,0 +1,34 @@
+# Ignore Python cache files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore backup and temporary files
+*~
+*.swp
+*.tmp
+
+# Ignore environment variables and credentials
+.env
+
+# Ignore version control folders
+.git/
+.gitignore
+
+# Ignore IDE and editor-specific folders
+.vscode/
+.idea/
+
+# Ignore other unwanted files (e.g., README backups)
+*.md
+
+07_midterm_project/data/
+structure.py
+06_trees/jamb_exam_results.csv
+06_trees/jamb_exam_results.csv.1
+07_midterm_project/logs
+07_midterm_project/artifacts
+ML_ZOOMCAMP_2024/bank-full.csv~

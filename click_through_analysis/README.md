@@ -33,7 +33,7 @@ The data is loaded from a CSV file stored in Google Drive. The `Timestamp` colum
 
 ## Requirements
 
-- Python 3.x
+- Python 3.12.1
 - Google Colab or Jupyter Notebook
 - Libraries:
   - pandas
@@ -44,7 +44,6 @@ The data is loaded from a CSV file stored in Google Drive. The `Timestamp` colum
   - xgboost
   - scipy
   
-
 Install the dependencies using:
 
 ```bash
@@ -69,8 +68,9 @@ click_through_rate_project/
 │   ├── model.py
 │   ├── predict_pipeline.py
 │   └── utils.py
-├── main.py
 ├── app.py
+├── Dockerfile
+├── main.py
 ├── README.md
 └── requirements.txt
               # Project documentation
@@ -142,7 +142,6 @@ Hyperparameters were tuned using **GridSearchCV** to find the best configuration
 - **F1 Score**: 87%
 - **ROC AUC**: 95%
 
-
 The Logistic Regression model performed well, achieving a high AUC score without overfitting, indicating a strong ability to discriminate between users who clicked on ads and those who did not.
 
 ## How to Run
@@ -159,6 +158,16 @@ The Logistic Regression model performed well, achieving a high AUC score without
    ```
 
 3. Follow the steps in the notebook to load data, explore, and build models.
+
+## Docker Image
+
+The Docker image for this project has been pushed to Docker Hub. You can pull it and run it on your system using the following command:
+
+```bash
+docker pull tadeni/ad_click_through:v1
+```
+
+After pulling the image, you can run it to start using the project environment.
 
 ## Conclusion
 
