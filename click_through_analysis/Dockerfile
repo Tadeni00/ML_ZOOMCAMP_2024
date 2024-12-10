@@ -18,7 +18,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy all application files into the container
 COPY . .
 
+RUN useradd -ms /bin/bash nonroot
 USER nonroot
+
+EXPOSE 5000
 
 # The command to run the application
 CMD ["python", "app.py"]
