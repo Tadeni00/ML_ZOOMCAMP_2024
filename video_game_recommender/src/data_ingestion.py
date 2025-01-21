@@ -1,1 +1,0 @@
-file_path = "/workspaces/ML_ZOOMCAMP_2024/video_game_recommender/data/raw/video_game_reviews.csv"

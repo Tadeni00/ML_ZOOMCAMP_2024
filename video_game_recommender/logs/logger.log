@@ -33,3 +33,61 @@
 2025-01-20 18:28:15,866 - INFO - Feature engineering completed successfully.
 2025-01-20 18:32:13,878 - INFO - Data processed successfully.
 2025-01-20 18:32:14,233 - INFO - Feature engineering completed successfully.
+2025-01-21 18:39:06,233 - INFO - Data processed successfully.
+2025-01-21 18:39:06,666 - INFO - Feature engineering completed successfully.
+2025-01-21 18:39:19,686 - INFO - Data processed successfully.
+2025-01-21 18:39:19,968 - INFO - Data processed successfully.
+2025-01-21 18:39:20,562 - INFO - Feature engineering completed successfully.
+2025-01-21 18:39:20,738 - INFO - Feature engineering completed successfully.
+2025-01-21 18:39:20,744 - INFO - Found 5 similar games for 'Street Fighter V'.
+2025-01-21 18:39:21,287 - INFO - Game Cover picture fetched
+2025-01-21 18:39:21,287 - INFO - Top 5 similar games for Street Fighter V are Super Smash Bros. Ultimate.
+2025-01-21 18:39:21,640 - INFO - Game Cover picture fetched
+2025-01-21 18:39:21,641 - INFO - Top 5 similar games for Street Fighter V are Street Fighter V.
+2025-01-21 18:39:22,015 - INFO - Game Cover picture fetched
+2025-01-21 18:39:22,015 - INFO - Top 5 similar games for Street Fighter V are League of Legends.
+2025-01-21 18:39:22,497 - INFO - Game Cover picture fetched
+2025-01-21 18:39:22,498 - INFO - Top 5 similar games for Street Fighter V are Sid Meier’s Civilization VI.
+2025-01-21 18:39:22,754 - INFO - Game Cover picture fetched
+2025-01-21 18:39:22,754 - INFO - Top 5 similar games for Street Fighter V are Hades.
+2025-01-21 18:43:40,586 - INFO - Data processed successfully.
+2025-01-21 18:43:40,958 - INFO - Feature engineering completed successfully.
+2025-01-21 18:43:41,115 - INFO - Found 5 similar games for 'Street Fighter V'.
+2025-01-21 18:45:59,663 - INFO - Data processed successfully.
+2025-01-21 18:46:00,008 - INFO - Feature engineering completed successfully.
+2025-01-21 18:46:07,077 - INFO - Data processed successfully.
+2025-01-21 18:46:07,349 - INFO - Data processed successfully.
+2025-01-21 18:46:07,944 - INFO - Feature engineering completed successfully.
+2025-01-21 18:46:08,091 - INFO - Feature engineering completed successfully.
+2025-01-21 18:46:08,098 - INFO - Found 5 similar games for 'Half-Life: Alyx'.
+2025-01-21 18:47:24,294 - INFO - Data processed successfully.
+2025-01-21 18:47:24,640 - INFO - Feature engineering completed successfully.
+2025-01-21 18:47:30,196 - INFO - Data processed successfully.
+2025-01-21 18:47:30,497 - INFO - Data processed successfully.
+2025-01-21 18:47:31,087 - INFO - Feature engineering completed successfully.
+2025-01-21 18:47:31,284 - INFO - Feature engineering completed successfully.
+2025-01-21 18:47:31,324 - INFO - Found 5 similar games for 'Hades'.
+2025-01-21 18:47:31,595 - INFO - Game Cover picture fetched
+2025-01-21 18:47:31,595 - INFO - Top similar games for Hades are Tetris (1984).
+2025-01-21 18:47:32,005 - INFO - Game Cover picture fetched
+2025-01-21 18:47:32,006 - INFO - Top similar games for Hades are BioShock Infinite.
+2025-01-21 18:47:32,428 - INFO - Game Cover picture fetched
+2025-01-21 18:47:32,428 - INFO - Top similar games for Hades are Overwatch 2.
+2025-01-21 18:47:32,745 - INFO - Game Cover picture fetched
+2025-01-21 18:47:32,745 - INFO - Top similar games for Hades are Hitman 3.
+2025-01-21 18:47:33,479 - INFO - Game Cover picture fetched
+2025-01-21 18:47:33,479 - INFO - Top similar games for Hades are Street Fighter V.
+2025-01-21 18:48:27,644 - INFO - Data processed successfully.
+2025-01-21 18:48:27,992 - INFO - Feature engineering completed successfully.
+2025-01-21 18:48:32,686 - INFO - Data processed successfully.
+2025-01-21 18:48:32,943 - INFO - Data processed successfully.
+2025-01-21 18:48:33,546 - INFO - Feature engineering completed successfully.
+2025-01-21 18:48:33,673 - INFO - Feature engineering completed successfully.
+2025-01-21 18:48:33,681 - INFO - Found 5 similar games for 'Hades'.
+2025-01-21 18:48:34,029 - INFO - Game Cover picture fetched
+2025-01-21 18:48:34,335 - INFO - Game Cover picture fetched
+2025-01-21 18:48:34,805 - INFO - Game Cover picture fetched
+2025-01-21 18:48:35,154 - INFO - Game Cover picture fetched
+2025-01-21 18:48:35,550 - INFO - Game Cover picture fetched
+2025-01-21 18:49:30,015 - INFO - Data processed successfully.
+2025-01-21 18:49:30,358 - INFO - Feature engineering completed successfully.

@@ -4,11 +4,17 @@ FROM python:3.12-slim
 # Set the working directory
 WORKDIR /app
 
+# Copy the data folder into the container
+COPY ./data ./data
+
 # Copy the requirements file
 COPY requirements.txt .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
+
+# Download SpaCy model
+RUN python -m spacy download en_core_web_md
 
 # Copy the application code
 COPY ./src ./src

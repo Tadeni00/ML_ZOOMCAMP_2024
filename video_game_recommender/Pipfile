@@ -4,7 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pandas = "*"
+scikit-learn = "*"
 spacy = "*"
+requests = "*"
+streamlit = "*"
 
 [dev-packages]
 

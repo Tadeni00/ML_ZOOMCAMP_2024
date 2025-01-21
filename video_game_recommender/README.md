@@ -1,10 +1,11 @@
-# Game Recommendation System
+# Video Game Recommendation System
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [Running the Streamlit App](#running-the-streamlit-app)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
 - [Contributing](#contributing)
@@ -12,74 +13,107 @@
 - [Contact](#contact)
 
 ## Introduction
-The Game Recommendation System is a web application designed to help users discover video games based on their preferences and gameplay styles. Using a combination of collaborative filtering and content-based filtering techniques, this application provides personalized game suggestions to enhance the gaming experience.
+The Game Recommendation System is a personalized recommendation engine built using machine learning. It helps users discover new video games based on their preferences, genres, and gameplay patterns. The app runs on **Streamlit**, providing an interactive and user-friendly web interface.
 
 ## Features
-- **User-Friendly Interface:** Easy-to-navigate Streamlit web application.
-- **Personalized Recommendations:** Offers game recommendations based on user input.
-- **Comprehensive Game Database:** Includes a variety of video games from different genres.
-- **Interactive Visualizations:** Provides insights and statistics related to game ratings and popularity.
+- **Interactive Web App:** Built with Streamlit for seamless user interaction.
+- **Game Recommendations:** Tailored suggestions using collaborative and content-based filtering.
+- **Search & Filters:** Enter preferences to receive curated recommendations.
 
 ## Technologies Used
-- **Python:** The primary programming language for building the application.
-- **Streamlit:** A library for creating web applications easily.
-- **Pandas:** For data manipulation and analysis.
-- **NumPy:** For numerical computations.
-- **Scikit-learn:** For implementing machine learning algorithms.
-- **Docker:** For containerizing the application for easier deployment.
+- **Python:** Core programming language.
+- **Streamlit:** For creating the web application interface.
+- **Pandas & NumPy:** For data manipulation and analysis.
+- **Scikit-learn:** For machine learning models.
+- **Docker:** For containerizing the app and ensuring consistent deployment.
 
 ## Installation
-To run the Game Recommendation System locally, follow these steps:
+To set up the project locally or in a containerized environment:
 
 ### Prerequisites
-- Ensure you have [Docker](https://www.docker.com/get-started) installed on your machine.
-- Alternatively, install Python 3.12 and required packages if you prefer running the application directly.
+- Install [Docker](https://www.docker.com/get-started) (recommended) or Python 3.12 with pip.
 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/video_game_recommender.git
+   git clone https://github.com/tadeni00/video_game_recommender.git
    cd game-recommendation-system
    ```
 
-2. Build the Docker image:
+2. **For Docker Users**  
+   Build the Docker image:
    ```bash
    docker build -t game-recommendation-system .
-   ```
 
-3. Run the Docker container:
+   ```
+   The Docker image for this project has been pushed to Docker Hub. You can pull it and run it on your system using the following command:
+
+   ```bash
+   docker pull tadeni/game-recommendation-system:v1
+   ```
+   
+   Run the container:
    ```bash
    docker run -p 8501:8501 game-recommendation-system
    ```
 
-4. Access the application in your web browser at [http://localhost:8501](http://localhost:8501).
+3. **For Python Users**  
+   Create and activate a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+   ```
+
+   Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   Run the app:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Running the Streamlit App
+After successfully building and running the Docker container or running the Python script, you can access the Streamlit app in your browser:
+
+- **URL for Docker:**  
+  [http://localhost:8501](http://localhost:8501)
+  
+- **URL for Python:**  
+  Provided in the terminal upon running `streamlit run`.
+
+Once on the app, explore the interface, input preferences, and view personalized game recommendations.
 
 ## Usage
-1. Launch the application using Docker as described above.
-2. Input your preferences in the provided fields.
-3. Click on the "Get Recommendations" button to see personalized game suggestions.
-4. Explore the visualizations and statistics for insights on various games.
+1. **Launch the App:**  
+   Open the app in your browser using the provided URL.
+   
+2. **Enter Preferences:**  
+   Fill in the required fields, such as favorite genres or gameplay styles.
+
+3. **Get Recommendations:**  
+   Click "Get Recommendations" to see tailored game suggestions.
+
 
 ## How It Works
-The Game Recommendation System utilizes two main approaches to generate game recommendations:
-- **Collaborative Filtering:** This technique uses user behavior and preferences to recommend games that similar users enjoyed.
-- **Content-Based Filtering:** This approach recommends games based on their features and attributes that match the user's interests.
+The app leverages a combination of machine learning techniques:
+- **Collaborative Filtering:** Recommends games based on user behavior.
+- **Content-Based Filtering:** Matches games with similar attributes to user preferences.
 
-The system combines both methods to provide a robust recommendation list.
+A preprocessed dataset of video games is used to train the models, ensuring relevant and accurate recommendations.
 
 ## Contributing
-Contributions are welcome! If you'd like to contribute to the Game Recommendation System, please follow these steps:
+Contributions are always welcome! If you'd like to improve the app or add new features:
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
+2. Create a new branch for your changes.
+3. Submit a pull request describing your updates.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contact
-For inquiries or feedback, please reach out to:
+For support or questions, please reach out:
 - **Name:** Tomisin Adeniyi
-- **Email:** tomisin-adeniyi11@yahoo.com.com
+- **Email:** tomisin_adeniyi11@yahoo.com
 - **GitHub:** [GitHub Profile](https://github.com/tadeni00)

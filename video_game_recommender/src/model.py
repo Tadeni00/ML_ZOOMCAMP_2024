@@ -33,4 +33,6 @@ def find_similar_games(data, cosine_sim_matrix, game_title, top_n=5):
     similar_games = [(data.iloc[idx]['game_title'], score) for idx, score in similarity_scores]
 
     logging.info(f"Found {len(similar_games)} similar games for '{game_title}'.")
+
+
     return similar_games
